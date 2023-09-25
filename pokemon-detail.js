@@ -49,7 +49,7 @@ async function loadPokemon(id) {
           navigatePokemon(id - 1);
         });
       }
-      if (id !== 151) {
+      if (id !== 1291) {
         rightArrow.addEventListener("click", () => {
           navigatePokemon(id + 1);
         });
